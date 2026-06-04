@@ -223,16 +223,16 @@
         </div>
         <p class="contact-note">お問い合わせフォームよりご連絡いただくか、お電話にてお気軽にお問い合わせください。</p>
       </div>
-      <div class="contact-form-box">
+      <form class="contact-form-box" action="https://formspree.io/f/mojzqkwa" method="POST">
         <div class="form-row-2">
-          <div class="form-row"><label>お名前 *</label><input type="text" placeholder="山田 太郎"></div>
-          <div class="form-row"><label>会社名</label><input type="text" placeholder="株式会社○○"></div>
+          <div class="form-row"><label>お名前 *</label><input type="text" placeholder="山田 太郎" name="お名前"></div>
+          <div class="form-row"><label>会社名</label><input type="text" placeholder="株式会社○○" name="会社名"></div>
         </div>
-        <div class="form-row"><label>メールアドレス *</label><input type="email" placeholder="info@example.com"></div>
+        <div class="form-row"><label>メールアドレス *</label><input type="email" placeholder="info@example.com" name="メールアドレス"></div>
 
-        <div class="form-row"><label>メッセージ</label><textarea placeholder="お問い合わせ内容をご記入ください"></textarea></div>
-        <button class="form-submit">送 信 す る</button>
-      </div>
+        <div class="form-row"><label>メッセージ</label><textarea placeholder="お問い合わせ内容をご記入ください" name="メッセージ"></textarea></div>
+        <button type="submit" class="form-submit">送 信 す る</button>
+      </form>
     </div>
   </div>
 </section>
